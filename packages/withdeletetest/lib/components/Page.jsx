@@ -11,12 +11,7 @@ class Page extends React.Component {
 
   render() {
     return(
-      <Components.MoviesList
-        terms={{
-          view: 'byNameView',
-          name: "Cars" 
-        }}
-      />
+      <Components.MoviesList/>
     )
   }
 }
